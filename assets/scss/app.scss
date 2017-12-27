@@ -1,0 +1,19 @@
+@import url("../fonts/stylesheet.css");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900');
+
+// Import framework
+
+@import "../libs/bootstrap/css/bootstrap.min.css";
+@import "./variables.scss";
+@import "./utils/plaseholder.scss";
+
+
+
+// Import modules
+@import "./components/header";
+@import "./components/slider";
+@import "./components/_typography";
+@import "./components/articles";
+@import "./components/message";
+@import "./components/footer";
+

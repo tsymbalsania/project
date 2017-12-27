@@ -1,0 +1,63 @@
+header {
+    height: 120px;
+    display: flex;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);  
+    overflow: hidden;
+    
+}
+
+header a {
+    color:black;
+}
+.nav-item {
+    color: #000;
+    font-weight: 700;
+    font-size: 13px;
+    padding-right: 15px;
+    font-family: normal 13px
+}
+
+.logo {
+    padding: 15px 5px;
+}
+.menu {
+    padding: 40px 5px;
+   font-family: normal 13px 'Lato';  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.submenu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 42px 0;
+    padding: 0 10px;
+}
+.icon {
+    padding: 0 10px; 
+}
+
+.home {
+    color: #d11665;
+}  
+
+body {
+    min-width: 100%;
+    overflow-x: hidden;
+
+}
+.container {
+    max-width: 1360px;
+
+    
+}
+nav { white-space: nowrap;
+}

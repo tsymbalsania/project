@@ -1,0 +1,75 @@
+.message {
+    height: 415px;   
+    padding-top: 40px;
+    &__title{
+        color: #fff;
+        font-size: 1.25rem;
+        font-weight: 900;
+        letter-spacing: 2px;
+        
+    }
+    &__subtitle {
+        font-style: italic;
+        color: #959494;
+        margin-top: 10px;
+    }
+    &__text {
+        font-style: italic;
+        margin: 25px 0;
+        color: #fff;
+    }
+    &__name {
+        letter-spacing: 1px;
+        font-weight: 900;
+        color: #fff;
+    }
+    &__mail {
+        font-style: italic;
+        color: #959494;
+    }
+}
+.sing-us {
+    padding-top: 30px;
+    &__title {
+        color: #000;
+        font-size: 1.25rem;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+    }
+    &__subtitle {
+        font-style: italic;
+        color: #959494;
+        margin-top: 10px;
+    }
+}
+.mail-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.form-group {
+    width: 450px;
+}
+
+.btn-mail {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    &:hover {
+        color:#d11665;
+        background-color: transparent;
+    }
+}
+
+input:hover {
+    border: 1px #d11665 solid;
+}
+
+.form-control:focus {
+    border-color: #d11665;
+    box-shadow: none; 
+}
